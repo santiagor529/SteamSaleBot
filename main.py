@@ -1,5 +1,7 @@
+from Web_Server import Web_Server
 import discord
 import os
+import requests
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -16,7 +18,8 @@ async def on_message(message):
     return
   if message.content.startswith('$hello'):
     await message.channel.send('Hello!')
-  if message.content.startswith('$test'):
-    await message.channel.send('yes')
+  if message.content.startswith('$sale'):
+    await message.channel.send('Not ready yet.')
 
+Web_Server()
 client.run(os.getenv('token'))

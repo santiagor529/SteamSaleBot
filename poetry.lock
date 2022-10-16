@@ -340,7 +340,7 @@ Werkzeug = ">=2.0.0,<3.0.0"
 
 [[package]]
 name = "replit-python-lsp-server"
-version = "1.15.8"
+version = "1.15.9"
 description = "Python Language Server for the Language Server Protocol"
 category = "dev"
 optional = false
@@ -506,7 +506,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8.0,<3.9"
-content-hash = "0d9803e6df7f783b664f01987fe80cf2bd0183400993184a6db70827a0da7d5b"
+content-hash = "a60d9adfa7edf313130e9e5f25a1e94ec99ae0e6d8bcd5e800bdb9b13011d6e5"
 
 [metadata.files]
 aiohttp = []
