@@ -19,8 +19,7 @@ async def on_message(message):
   if message.content.lower().startswith('$hello'):
     await message.channel.send('Hello!')
   if message.content.lower().startswith('$sale'):
-    await message.channel.send('Not ready yet.')
+    await message.channel.send(str(response()))
 
-response()
 Web_Server()
 client.run(os.getenv('token'))
