@@ -1,6 +1,6 @@
 # SteamSaleBot
 
-This is a Discord bot that uses the Steamspy api to show the top 100 games of the last 2 weeks. I'm currently working on more things to make it do, and how to properly display the information.
+This is a Discord bot that uses the Steamspy api to show the top 100, top 50, and top 10 games of the last 2 weeks. It will also show you the last 50 or 10 games of that list.
 
 ## Screenshots
 
